@@ -4,14 +4,14 @@ A terminal-based WhatsApp client written in Rust, providing a fast and efficient
 
 ## Features
 
-- 📱 Full WhatsApp messaging support
-- 💬 Multi-pane interface for viewing multiple chats simultaneously
-- 🎨 Modern TUI with keyboard shortcuts
-- 🔍 Smart chat filtering (removes duplicate and junk chats)
-- 🚫 Automatic reaction filtering in group chats
-- 👥 Contact name resolution from WhatsApp database
-- 🔄 Background message syncing
-- 📝 Message history with proper sender names
+- Full WhatsApp messaging support
+- Multi-pane interface for viewing multiple chats simultaneously
+- Modern TUI with keyboard shortcuts
+- Smart chat filtering (removes duplicate and junk chats)
+- Automatic reaction filtering in group chats
+- Contact name resolution from WhatsApp database
+- Background message syncing
+- Message history with proper sender names
 
 ## Prerequisites
 
