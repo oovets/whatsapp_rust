@@ -958,7 +958,7 @@ impl WhatsAppClient {
                 );
                 
                 crate::debug_log!("DB message check: content='{}', len={}, starts_with={{={{: {}, ends_with=}}={}, has_media={}, is_reaction={}", 
-                    if trimmed.len() > 50 { &trimmed[..50] } else { trimmed },
+                    trimmed.chars().take(50).collect::<String>(),
                     trimmed.len(),
                     trimmed.starts_with("{{"),
                     trimmed.ends_with("}}"),
